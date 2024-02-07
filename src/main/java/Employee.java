@@ -6,12 +6,9 @@ public class Employee {
 	double hrsWorked;
 	PayType payType;
 	
-	public Employee(String name, double hrRate, double hrsWorked, PayType payType) {
-		super();
+	public Employee(String name, double hrRate) {
 		this.name = name;
 		this.hrRate = hrRate;
-		this.hrsWorked = hrsWorked;
-		this.payType = payType;
 	}
 
 	public String getName() {
