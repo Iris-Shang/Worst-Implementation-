@@ -7,7 +7,7 @@ public class Overtime implements PayType {
 			return hrRate * hrsWorked;
 		}
 		else{
-			return hrRate * 40 + hrRate * 1.5 * hrsWorked;
+			return hrRate * 40 + hrRate * 1.5 * (hrsWorked-40);
 		}
 	}
 	

@@ -2,7 +2,11 @@ import java.util.ArrayList;
 
 public class Company {
 	
-	ArrayList<Employee> roster = new ArrayList<Employee>();
+	ArrayList<Employee> roster; 
+	
+	public Company(ArrayList<Employee> roster) {
+		this.roster = new ArrayList<Employee>();
+	}
 	
 	public void addEmployee(String name, double hrRate, double hrsWorked, String eType) {
 		if(eType == "Contractor") {
@@ -26,12 +30,12 @@ public class Company {
 		
 		ArrayList<Double> paid = new ArrayList<Double>();
 		
-		for(int i = 0; i < roster.size(); i++) {
-			paid.add(roster.get(i).getPay());
+		for(int i = 0; i < this.roster.size(); i++) {
+			paid.add(this.roster.get(i).getPay());
+			
 		}
 		
 		return paid;
 	}
-
 	
 }
