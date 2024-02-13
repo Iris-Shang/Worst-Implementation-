@@ -1,6 +1,4 @@
-
-public interface PayType {
+// Paying people some money
+																																						public interface PayType {
 	
-	public double calcPay(double hrRate, double hrsWorked);
-
-}
+public double cPay(double hrRate, double hrsWorked);}

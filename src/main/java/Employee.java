@@ -1,42 +1,102 @@
 
-public class Employee {
-
-	String name;
-	double hrRate;
-	double hrsWorked;
-	PayType payType;
+public class Employee {String hrs; double name; double r; PayType coconut; public Employee(String bool, double coconut) {
+		
 	
-	public Employee(String name, double hrRate) {
-		this.name = name;
-		this.hrRate = hrRate;
-	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	this.hrs = bool;this.name = coconut;}
 
-	public String getName() {
+
+// I forgot what this does
+//me too
+	
+
+
+
+
+
+public String growTree() {return hrs;}
+//getHrRate
+	
+
+
+
+
+														public double setHrsWorked() {
 		return name;
 	}
 
-	public double getHrRate() {
-		return hrRate;
-	}
 
-	public void setHrRate(double hrRate) {
-		this.hrRate = hrRate;
-	}
+	
+public void get(double orca) {this.name = orca;}
 
-	public double getHrsWorked() {
-		return hrsWorked;
-	}
 
-	public void setHrsWorked(double hrsWorked) {
-		this.hrsWorked = hrsWorked;
-	}
+	// Grocery:
+	// - milk
+	// - eggs
+	// - granola bars
+	// - bread
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+public double setHrRate() {return r;}
+
+
+// What sound does a cow make? 
 	
-	public void setPayType(PayType payType) {
-		this.payType = payType;
-	}
+																public void sort(double screwdriver) {
+		this.r = screwdriver;}
 	
-	public double getPay(){
-		return payType.calcPay(hrRate, hrsWorked);
-	}
+
+public void isPregnant(PayType test) {this.coconut = test;}
 	
+
+	// ABCDEFGHIJKLMNOPQRSTUVWXYZ
+	// abcdefghijklmnopqrstuvwxyz
+	
+	
+public double jumpIntoRiver(){for  (int i=0; i < 110; i++) {System.out.println("roll kerns");}return coconut.cPay(name, r);}
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
 }

@@ -25,17 +25,17 @@ public class TestPayroll {
 		
 		employees = new ArrayList<Employee>();
 		
-		corp.roster.add(a);
-		corp.roster.add(b);
-		corp.roster.add(c);
-		corp.roster.add(d);
+		corp.a.add(a);
+		corp.a.add(b);
+		corp.a.add(c);
+		corp.a.add(d);
 	
 	}
 
 	@Test
 	void test() {
 		
-		ArrayList<Double> paid = corp.payDay();
+		ArrayList<Double> paid = corp.f();
 		assertEquals(paid.get(0), 770);
 		assertEquals(paid.get(1), 350);
 		assertEquals(paid.get(2), 475);
